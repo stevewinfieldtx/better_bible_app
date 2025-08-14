@@ -7,7 +7,7 @@ A modern, AI-powered Bible learning application that creates age-appropriate con
 - **Editable Bible Verse Input**: Type any Bible verse reference (e.g., "John 3:16", "Psalm 23:1")
 - **Age-Appropriate Content**: Four age groups (0-6, 7-12, 13-17, Adult) with tailored content
 - **AI-Generated Content**: Uses Google Gemini AI to create personalized explanations, stories, prayers, and activities
-- **Custom AI Images**: Generates unique images using Runway AI for each verse and age group combination
+- **Custom AI Images**: Generates unique images using Runware AI for each verse and age group combination
 - **Smart Caching**: Saves generated content to avoid regenerating the same material
 - **Random Image Selection**: Displays random images from age-specific folders
 - **Responsive Design**: Beautiful, modern interface that works on all devices
@@ -29,12 +29,12 @@ Create a `.env.local` file in your project root with your API keys:
 # Google Gemini AI API Key
 GEMINI_API_KEY=AIzaSyBX4Q3dZXzdHIoHDSHX6i5Qhp8jS01wUds
 
-# Runway AI API Key
-RUNWAY_API_KEY=Bpu5CScHECsobs0n7gJwnGLacwWOnHZv
+# Runware AI API Key
+RUNWARE_API_KEY=Bpu5CScHECsobs0n7gJwnGLacwWOnHZv
 
-# Runway AI Configuration
-RUNWAY_MODEL=runware:101@1
-RUNWAY_API_URL=https://api.runwayml.com/v1/inference
+# Runware AI Configuration
+RUNWARE_MODEL=runware:101@1
+RUNWARE_API_URL=https://api.runware.com/v1/inference
 ```
 
 ### 3. Image Folders
@@ -87,7 +87,7 @@ For production deployment, we recommend using **Railway** - a modern platform th
 2. **Age Selection**: User clicks on an age group card
 3. **AI Processing**: The app simultaneously:
    - Generates age-appropriate content using Gemini AI
-   - Creates a custom image using Runway AI
+   - Creates a custom image using Runware AI
 4. **Caching**: Generated content is saved for future use
 5. **Display**: Shows both the AI-generated content and custom image
 
@@ -98,7 +98,7 @@ For production deployment, we recommend using **Railway** - a modern platform th
 - Tailors language complexity and themes to each age group
 - Ensures biblical accuracy and family-friendly content
 
-#### Runway AI (Images)
+#### Runware AI (Images)
 - Generates unique, inspiring images for each verse
 - Applies age-appropriate visual styles
 - Ensures family-friendly, biblically appropriate imagery
@@ -177,7 +177,7 @@ The app uses custom CSS classes defined in `app/globals.css`. Modify these to ch
 ### Common Issues
 
 1. **API Key Errors**: Check your `.env.local` file and ensure keys are correct
-2. **Image Generation Fails**: Verify Runway AI API key and model name
+2. **Image Generation Fails**: Verify Runware AI API key and model name
 3. **Content Generation Fails**: Check Gemini AI API key and quota
 4. **Images Not Loading**: Ensure image folders exist and contain valid image files
 

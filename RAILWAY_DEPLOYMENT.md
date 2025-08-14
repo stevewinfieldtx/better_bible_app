@@ -20,12 +20,12 @@ In your Railway project dashboard, go to the "Variables" tab and add these envir
 # Google Gemini AI API Key
 GEMINI_API_KEY=AIzaSyBX4Q3dZXzdHIoHDSHX6i5Qhp8jS01wUds
 
-# Runway AI API Key
-RUNWAY_API_KEY=Bpu5CScHECsobs0n7gJwnGLacwWOnHZv
+# Runware AI API Key
+RUNWARE_API_KEY=Bpu5CScHECsobs0n7gJwnGLacwWOnHZv
 
-# Runway AI Configuration
-RUNWAY_MODEL=runware:101@1
-RUNWAY_API_URL=https://api.runwayml.com/v1/inference
+# Runware AI Configuration
+RUNWARE_MODEL=runware:101@1
+RUNWARE_API_URL=https://api.runware.com/v1/inference
 
 # Railway-specific variables
 NODE_ENV=production
